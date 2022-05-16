@@ -65,7 +65,7 @@ function estimate_etasModel(pathIniFile, pathResultsFile, makeLog, saveDiagnosti
     
     %% Store results in .mat file in model results folder
     diary off
-    save(pathResultsFile, 'paramETAS', 'paramETAS_descrip', 'IterationLog', 'ModelSummary', 'EstimSettings', 'ModelFuncs', 'ClustersETAS'); % 'TriggerRelationsETAS', 
+    save(pathResultsFile, 'paramETAS', 'paramETAS_descrip', 'IterationLog', 'ModelSummary', 'EstimSettings', 'ModelFuncs', 'ClustersETAS', 'TriggerRelationsETAS'); %
     
     %% Store some diagnostic plots
     % Plot observed vs. integrated rate
